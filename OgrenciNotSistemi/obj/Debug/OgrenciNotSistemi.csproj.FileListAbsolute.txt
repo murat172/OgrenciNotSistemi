@@ -1,0 +1,11 @@
+C:\Users\h\OneDrive\Dokumente\GitHub\ÖğrenciNotSistemi\OgrenciNotSistemi\OgrenciNotSistemi\bin\Debug\OgrenciNotSistemi.exe.config
+C:\Users\h\OneDrive\Dokumente\GitHub\ÖğrenciNotSistemi\OgrenciNotSistemi\OgrenciNotSistemi\bin\Debug\OgrenciNotSistemi.exe
+C:\Users\h\OneDrive\Dokumente\GitHub\ÖğrenciNotSistemi\OgrenciNotSistemi\OgrenciNotSistemi\bin\Debug\OgrenciNotSistemi.pdb
+C:\Users\h\OneDrive\Dokumente\GitHub\ÖğrenciNotSistemi\OgrenciNotSistemi\OgrenciNotSistemi\obj\Debug\OgrenciNotSistemi.csproj.AssemblyReference.cache
+C:\Users\h\OneDrive\Dokumente\GitHub\ÖğrenciNotSistemi\OgrenciNotSistemi\OgrenciNotSistemi\obj\Debug\OgrenciNotSistemi.Properties.Resources.resources
+C:\Users\h\OneDrive\Dokumente\GitHub\ÖğrenciNotSistemi\OgrenciNotSistemi\OgrenciNotSistemi\obj\Debug\OgrenciNotSistemi.csproj.GenerateResource.cache
+C:\Users\h\OneDrive\Dokumente\GitHub\ÖğrenciNotSistemi\OgrenciNotSistemi\OgrenciNotSistemi\obj\Debug\OgrenciNotSistemi.csproj.CoreCompileInputs.cache
+C:\Users\h\OneDrive\Dokumente\GitHub\ÖğrenciNotSistemi\OgrenciNotSistemi\OgrenciNotSistemi\obj\Debug\OgrenciNotSistemi.exe
+C:\Users\h\OneDrive\Dokumente\GitHub\ÖğrenciNotSistemi\OgrenciNotSistemi\OgrenciNotSistemi\obj\Debug\OgrenciNotSistemi.pdb
+C:\Users\h\OneDrive\Dokumente\GitHub\ÖğrenciNotSistemi\OgrenciNotSistemi\OgrenciNotSistemi\obj\Debug\OgrenciNotSistemi.FrmGirisSayfası.resources
+C:\Users\h\OneDrive\Dokumente\GitHub\ÖğrenciNotSistemi\OgrenciNotSistemi\OgrenciNotSistemi\obj\Debug\OgrenciNotSistemi.FrmSistemeGiris.resources
