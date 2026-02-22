@@ -1,18 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\h\\OneDrive\\Dokumente\\GitHub\\\u00D6\u011FrenciNotSistemi\\OgrenciNotSistemi\\",
+  "WorkspaceRootPath": "C:\\Users\\h\\OneDrive\\Dokumente\\GitHub\\OgrenciNotSistemi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5A5DE357-9761-48E6-BA9A-719302F0ABBA}|OgrenciNotSistemi\\OgrenciNotSistemi.csproj|c:\\users\\h\\onedrive\\dokumente\\github\\\u00F6\u011Frencinotsistemi\\ogrencinotsistemi\\ogrencinotsistemi\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5A5DE357-9761-48E6-BA9A-719302F0ABBA}|OgrenciNotSistemi\\OgrenciNotSistemi.csproj|solutionrelative:ogrencinotsistemi\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5A5DE357-9761-48E6-BA9A-719302F0ABBA}|OgrenciNotSistemi\\OgrenciNotSistemi.csproj|C:\\Users\\h\\OneDrive\\Dokumente\\GitHub\\OgrenciNotSistemi\\ogrencinotsistemi\\frmogretmendetay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5A5DE357-9761-48E6-BA9A-719302F0ABBA}|OgrenciNotSistemi\\OgrenciNotSistemi.csproj|solutionrelative:ogrencinotsistemi\\frmogretmendetay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5A5DE357-9761-48E6-BA9A-719302F0ABBA}|OgrenciNotSistemi\\OgrenciNotSistemi.csproj|c:\\users\\h\\onedrive\\dokumente\\github\\\u00F6\u011Frencinotsistemi\\ogrencinotsistemi\\ogrencinotsistemi\\frmsistemegiris.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5A5DE357-9761-48E6-BA9A-719302F0ABBA}|OgrenciNotSistemi\\OgrenciNotSistemi.csproj|solutionrelative:ogrencinotsistemi\\frmsistemegiris.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{5A5DE357-9761-48E6-BA9A-719302F0ABBA}|OgrenciNotSistemi\\OgrenciNotSistemi.csproj|c:\\users\\h\\onedrive\\dokumente\\github\\ogrencinotsistemi\\ogrencinotsistemi\\frmogrencidetay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5A5DE357-9761-48E6-BA9A-719302F0ABBA}|OgrenciNotSistemi\\OgrenciNotSistemi.csproj|solutionrelative:ogrencinotsistemi\\frmogrencidetay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5A5DE357-9761-48E6-BA9A-719302F0ABBA}|OgrenciNotSistemi\\OgrenciNotSistemi.csproj|c:\\users\\h\\onedrive\\dokumente\\github\\\u00F6\u011Frencinotsistemi\\ogrencinotsistemi\\ogrencinotsistemi\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5A5DE357-9761-48E6-BA9A-719302F0ABBA}|OgrenciNotSistemi\\OgrenciNotSistemi.csproj|solutionrelative:ogrencinotsistemi\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{5A5DE357-9761-48E6-BA9A-719302F0ABBA}|OgrenciNotSistemi\\OgrenciNotSistemi.csproj|c:\\users\\h\\onedrive\\dokumente\\github\\ogrencinotsistemi\\ogrencinotsistemi\\frmogretmenveogrgiris.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5A5DE357-9761-48E6-BA9A-719302F0ABBA}|OgrenciNotSistemi\\OgrenciNotSistemi.csproj|solutionrelative:ogrencinotsistemi\\frmogretmenveogrgiris.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,47 +22,46 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\h\\OneDrive\\Dokumente\\GitHub\\\u00D6\u011FrenciNotSistemi\\OgrenciNotSistemi\\OgrenciNotSistemi\\Form1.cs",
-              "RelativeDocumentMoniker": "OgrenciNotSistemi\\Form1.cs",
-              "ToolTip": "C:\\Users\\h\\OneDrive\\Dokumente\\GitHub\\\u00D6\u011FrenciNotSistemi\\OgrenciNotSistemi\\OgrenciNotSistemi\\Form1.cs",
-              "RelativeToolTip": "OgrenciNotSistemi\\Form1.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABwAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-20T14:40:13.328Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FrmSistemeGiris.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\h\\OneDrive\\Dokumente\\GitHub\\\u00D6\u011FrenciNotSistemi\\OgrenciNotSistemi\\OgrenciNotSistemi\\FrmSistemeGiris.cs",
-              "RelativeDocumentMoniker": "OgrenciNotSistemi\\FrmSistemeGiris.cs",
-              "ToolTip": "C:\\Users\\h\\OneDrive\\Dokumente\\GitHub\\\u00D6\u011FrenciNotSistemi\\OgrenciNotSistemi\\OgrenciNotSistemi\\FrmSistemeGiris.cs [Design]",
-              "RelativeToolTip": "OgrenciNotSistemi\\FrmSistemeGiris.cs [Design]",
+              "DocumentIndex": 2,
+              "Title": "FrmOgretmenVeOgrGiris.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\h\\OneDrive\\Dokumente\\GitHub\\OgrenciNotSistemi\\OgrenciNotSistemi\\FrmOgretmenVeOgrGiris.cs",
+              "RelativeDocumentMoniker": "OgrenciNotSistemi\\FrmOgretmenVeOgrGiris.cs",
+              "ToolTip": "C:\\Users\\h\\OneDrive\\Dokumente\\GitHub\\OgrenciNotSistemi\\OgrenciNotSistemi\\FrmOgretmenVeOgrGiris.cs [Design]",
+              "RelativeToolTip": "OgrenciNotSistemi\\FrmOgretmenVeOgrGiris.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-20T14:41:18.943Z",
+              "WhenOpened": "2026-02-22T11:27:37.43Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\h\\OneDrive\\Dokumente\\GitHub\\\u00D6\u011FrenciNotSistemi\\OgrenciNotSistemi\\OgrenciNotSistemi\\Form1.cs",
-              "RelativeDocumentMoniker": "OgrenciNotSistemi\\Form1.cs",
-              "ToolTip": "C:\\Users\\h\\OneDrive\\Dokumente\\GitHub\\\u00D6\u011FrenciNotSistemi\\OgrenciNotSistemi\\OgrenciNotSistemi\\Form1.cs [Design]",
-              "RelativeToolTip": "OgrenciNotSistemi\\Form1.cs [Design]",
+              "DocumentIndex": 1,
+              "Title": "FrmOgrenciDetay.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\h\\OneDrive\\Dokumente\\GitHub\\OgrenciNotSistemi\\OgrenciNotSistemi\\FrmOgrenciDetay.cs",
+              "RelativeDocumentMoniker": "OgrenciNotSistemi\\FrmOgrenciDetay.cs",
+              "ToolTip": "C:\\Users\\h\\OneDrive\\Dokumente\\GitHub\\OgrenciNotSistemi\\OgrenciNotSistemi\\FrmOgrenciDetay.cs [Design]",
+              "RelativeToolTip": "OgrenciNotSistemi\\FrmOgrenciDetay.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-20T14:30:18.315Z",
+              "WhenOpened": "2026-02-21T12:18:15.206Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FrmOgretmenDetay.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\h\\OneDrive\\Dokumente\\GitHub\\OgrenciNotSistemi\\OgrenciNotSistemi\\FrmOgretmenDetay.cs",
+              "RelativeDocumentMoniker": "OgrenciNotSistemi\\FrmOgretmenDetay.cs",
+              "ToolTip": "C:\\Users\\h\\OneDrive\\Dokumente\\GitHub\\OgrenciNotSistemi\\OgrenciNotSistemi\\FrmOgretmenDetay.cs [Design]",
+              "RelativeToolTip": "OgrenciNotSistemi\\FrmOgretmenDetay.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-21T12:18:01.606Z",
               "EditorCaption": " [Design]"
             }
           ]

@@ -46,6 +46,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FrmOgrenci.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmOgrenci.Designer.cs">
+      <DependentUpon>FrmOgrenci.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmOgrenciDetay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmOgrenciDetay.Designer.cs">
+      <DependentUpon>FrmOgrenciDetay.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmOgretmenVeOgrGiris.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -58,20 +70,20 @@
     <Compile Include="FrmOgretmenDetay.Designer.cs">
       <DependentUpon>FrmOgretmenDetay.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmSistemeGiris.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FrmSistemeGiris.Designer.cs">
-      <DependentUpon>FrmSistemeGiris.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SqlBaglanti.cs" />
+    <EmbeddedResource Include="FrmOgrenci.resx">
+      <DependentUpon>FrmOgrenci.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmOgrenciDetay.resx">
+      <DependentUpon>FrmOgrenciDetay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmOgretmenDetay.resx">
+      <DependentUpon>FrmOgretmenDetay.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmOgretmenVeOgrGiris.resx">
       <DependentUpon>FrmOgretmenVeOgrGiris.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FrmSistemeGiris.resx">
-      <DependentUpon>FrmSistemeGiris.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

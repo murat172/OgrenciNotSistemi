@@ -9,6 +9,12 @@ namespace OgrenciNotSistemi
 {
     internal class SqlBaglanti
     {
-        SqlConnection connection = new SqlConnection(@"Data Source=HP;Initial Catalog=DbOgrenciNotSistemi;Integrated Security=True;Encrypt=False");
+        public SqlConnection baglanti()
+        {
+            SqlConnection connection = new SqlConnection(@"Data Source=HP;Initial Catalog=DbOgrenciNotSistemi;Integrated Security=True;Encrypt=False");
+            connection.Open();
+            return connection;
+        }
+
     }
 }
