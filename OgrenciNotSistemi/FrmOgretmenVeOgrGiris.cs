@@ -19,6 +19,8 @@ namespace OgrenciNotSistemi
         }
 
         SqlBaglanti bgl = new SqlBaglanti();
+
+
         private void btnOgretmenGiris_Click(object sender, EventArgs e)
         {
             SqlCommand conn = new SqlCommand("select * from TblOgretmen where OgretmenNumara=@p1 and OgretmenSifre=@p2", bgl.baglanti());
@@ -28,6 +30,7 @@ namespace OgrenciNotSistemi
             if (dr.Read())
             {
                 FrmOgretmenDetay frm = new FrmOgretmenDetay();
+                frm.numara = mskOgretmenNumara.Text;
                 frm.Show();
                 MessageBox.Show("Sisteme Hoş Gelidiniz", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 this.Hide();

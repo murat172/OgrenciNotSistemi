@@ -212,6 +212,7 @@
             this.Name = "FrmGirisSayfası";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Sisteme Giriş";
+//            this.Load += new System.EventHandler(this.FrmGirisSayfası_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

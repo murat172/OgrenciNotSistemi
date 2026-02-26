@@ -19,6 +19,5 @@ C:\Users\h\OneDrive\Dokumente\GitHub\OgrenciNotSistemi\OgrenciNotSistemi\obj\Deb
 C:\Users\h\OneDrive\Dokumente\GitHub\OgrenciNotSistemi\OgrenciNotSistemi\bin\Debug\OgrenciNotSistemi.exe.config
 C:\Users\h\OneDrive\Dokumente\GitHub\OgrenciNotSistemi\OgrenciNotSistemi\bin\Debug\OgrenciNotSistemi.exe
 C:\Users\h\OneDrive\Dokumente\GitHub\OgrenciNotSistemi\OgrenciNotSistemi\bin\Debug\OgrenciNotSistemi.pdb
-C:\Users\h\OneDrive\Dokumente\GitHub\OgrenciNotSistemi\OgrenciNotSistemi\obj\Debug\OgrenciNotSistemi.FrmOgrenci.resources
 C:\Users\h\OneDrive\Dokumente\GitHub\OgrenciNotSistemi\OgrenciNotSistemi\obj\Debug\OgrenciNotSistemi.FrmOgretmenDetay.resources
 C:\Users\h\OneDrive\Dokumente\GitHub\OgrenciNotSistemi\OgrenciNotSistemi\obj\Debug\OgrenciNotSistemi.FrmOgrenciDetay.resources
