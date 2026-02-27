@@ -34,30 +34,30 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.label11 = new System.Windows.Forms.Label();
+            this.txtOrt = new System.Windows.Forms.TextBox();
+            this.label10 = new System.Windows.Forms.Label();
+            this.txtFinal = new System.Windows.Forms.TextBox();
+            this.txtNumara = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.txtSOyad = new System.Windows.Forms.TextBox();
+            this.txtSifre = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.txtAd = new System.Windows.Forms.TextBox();
+            this.txtSınıf = new System.Windows.Forms.TextBox();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
             this.btnSearch = new System.Windows.Forms.Button();
+            this.txtVize = new System.Windows.Forms.TextBox();
             this.btnUpdate = new System.Windows.Forms.Button();
             this.btnDelete = new System.Windows.Forms.Button();
             this.btnCreate = new System.Windows.Forms.Button();
             this.btlList = new System.Windows.Forms.Button();
-            this.txtVize = new System.Windows.Forms.TextBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.txtSınıf = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.txtSifre = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.txtNumaraOgrenci = new System.Windows.Forms.TextBox();
+            this.txtOgrId = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.txtNumara = new System.Windows.Forms.TextBox();
-            this.label7 = new System.Windows.Forms.Label();
-            this.txtSOyad = new System.Windows.Forms.TextBox();
-            this.label8 = new System.Windows.Forms.Label();
-            this.txtAd = new System.Windows.Forms.TextBox();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.txtFinal = new System.Windows.Forms.TextBox();
-            this.label11 = new System.Windows.Forms.Label();
-            this.txtOrt = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -135,7 +135,7 @@
             this.groupBox2.Controls.Add(this.btnDelete);
             this.groupBox2.Controls.Add(this.btnCreate);
             this.groupBox2.Controls.Add(this.btlList);
-            this.groupBox2.Controls.Add(this.txtNumaraOgrenci);
+            this.groupBox2.Controls.Add(this.txtOgrId);
             this.groupBox2.Controls.Add(this.label3);
             this.groupBox2.Location = new System.Drawing.Point(7, 150);
             this.groupBox2.Name = "groupBox2";
@@ -144,127 +144,38 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Not İşlemleri";
             // 
-            // btnSearch
+            // label11
             // 
-            this.btnSearch.Location = new System.Drawing.Point(76, 593);
-            this.btnSearch.Name = "btnSearch";
-            this.btnSearch.Size = new System.Drawing.Size(183, 38);
-            this.btnSearch.TabIndex = 12;
-            this.btnSearch.Text = "Ara";
-            this.btnSearch.UseVisualStyleBackColor = true;
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(75, 369);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(96, 24);
+            this.label11.TabIndex = 21;
+            this.label11.Text = "Ortalama:";
             // 
-            // btnUpdate
+            // txtOrt
             // 
-            this.btnUpdate.Location = new System.Drawing.Point(76, 549);
-            this.btnUpdate.Name = "btnUpdate";
-            this.btnUpdate.Size = new System.Drawing.Size(183, 38);
-            this.btnUpdate.TabIndex = 11;
-            this.btnUpdate.Text = "Güncelle";
-            this.btnUpdate.UseVisualStyleBackColor = true;
+            this.txtOrt.Enabled = false;
+            this.txtOrt.Location = new System.Drawing.Point(171, 365);
+            this.txtOrt.Name = "txtOrt";
+            this.txtOrt.Size = new System.Drawing.Size(175, 32);
+            this.txtOrt.TabIndex = 22;
             // 
-            // btnDelete
+            // label10
             // 
-            this.btnDelete.Location = new System.Drawing.Point(76, 505);
-            this.btnDelete.Name = "btnDelete";
-            this.btnDelete.Size = new System.Drawing.Size(183, 38);
-            this.btnDelete.TabIndex = 10;
-            this.btnDelete.Text = "Sil";
-            this.btnDelete.UseVisualStyleBackColor = true;
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(115, 330);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(56, 24);
+            this.label10.TabIndex = 19;
+            this.label10.Text = "Final:";
             // 
-            // btnCreate
+            // txtFinal
             // 
-            this.btnCreate.Location = new System.Drawing.Point(76, 461);
-            this.btnCreate.Name = "btnCreate";
-            this.btnCreate.Size = new System.Drawing.Size(183, 38);
-            this.btnCreate.TabIndex = 9;
-            this.btnCreate.Text = "Ekle";
-            this.btnCreate.UseVisualStyleBackColor = true;
-            this.btnCreate.Click += new System.EventHandler(this.btnCreate_Click);
-            // 
-            // btlList
-            // 
-            this.btlList.Location = new System.Drawing.Point(76, 417);
-            this.btlList.Name = "btlList";
-            this.btlList.Size = new System.Drawing.Size(183, 38);
-            this.btlList.TabIndex = 8;
-            this.btlList.Text = "Listele";
-            this.btlList.UseVisualStyleBackColor = true;
-            this.btlList.Click += new System.EventHandler(this.btlList_Click);
-            // 
-            // txtVize
-            // 
-            this.txtVize.Location = new System.Drawing.Point(171, 289);
-            this.txtVize.Name = "txtVize";
-            this.txtVize.Size = new System.Drawing.Size(175, 32);
-            this.txtVize.TabIndex = 7;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(120, 292);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(51, 24);
-            this.label6.TabIndex = 6;
-            this.label6.Text = "Vize:";
-            // 
-            // txtSınıf
-            // 
-            this.txtSınıf.Location = new System.Drawing.Point(171, 251);
-            this.txtSınıf.Name = "txtSınıf";
-            this.txtSınıf.Size = new System.Drawing.Size(175, 32);
-            this.txtSınıf.TabIndex = 5;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(118, 254);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(53, 24);
-            this.label5.TabIndex = 4;
-            this.label5.Text = "Sınıf:";
-            // 
-            // txtSifre
-            // 
-            this.txtSifre.Location = new System.Drawing.Point(171, 211);
-            this.txtSifre.Name = "txtSifre";
-            this.txtSifre.Size = new System.Drawing.Size(175, 32);
-            this.txtSifre.TabIndex = 3;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(117, 214);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(54, 24);
-            this.label4.TabIndex = 2;
-            this.label4.Text = "Şifre:";
-            // 
-            // txtNumaraOgrenci
-            // 
-            this.txtNumaraOgrenci.Location = new System.Drawing.Point(171, 57);
-            this.txtNumaraOgrenci.Name = "txtNumaraOgrenci";
-            this.txtNumaraOgrenci.Size = new System.Drawing.Size(175, 32);
-            this.txtNumaraOgrenci.TabIndex = 1;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(5, 61);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(168, 24);
-            this.label3.TabIndex = 0;
-            this.label3.Text = "Öğrenci Numarası:";
-            // 
-            // dataGridView1
-            // 
-            this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(375, 12);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(851, 743);
-            this.dataGridView1.TabIndex = 2;
+            this.txtFinal.Location = new System.Drawing.Point(171, 327);
+            this.txtFinal.Name = "txtFinal";
+            this.txtFinal.Size = new System.Drawing.Size(175, 32);
+            this.txtFinal.TabIndex = 20;
             // 
             // txtNumara
             // 
@@ -289,6 +200,22 @@
             this.txtSOyad.Size = new System.Drawing.Size(175, 32);
             this.txtSOyad.TabIndex = 16;
             // 
+            // txtSifre
+            // 
+            this.txtSifre.Location = new System.Drawing.Point(171, 211);
+            this.txtSifre.Name = "txtSifre";
+            this.txtSifre.Size = new System.Drawing.Size(175, 32);
+            this.txtSifre.TabIndex = 3;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(117, 214);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(54, 24);
+            this.label4.TabIndex = 2;
+            this.label4.Text = "Şifre:";
+            // 
             // label8
             // 
             this.label8.AutoSize = true;
@@ -298,12 +225,28 @@
             this.label8.TabIndex = 15;
             this.label8.Text = "Soyadı:";
             // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(118, 254);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(53, 24);
+            this.label5.TabIndex = 4;
+            this.label5.Text = "Sınıf:";
+            // 
             // txtAd
             // 
             this.txtAd.Location = new System.Drawing.Point(171, 95);
             this.txtAd.Name = "txtAd";
             this.txtAd.Size = new System.Drawing.Size(175, 32);
             this.txtAd.TabIndex = 14;
+            // 
+            // txtSınıf
+            // 
+            this.txtSınıf.Location = new System.Drawing.Point(171, 251);
+            this.txtSınıf.Name = "txtSınıf";
+            this.txtSınıf.Size = new System.Drawing.Size(175, 32);
+            this.txtSınıf.TabIndex = 5;
             // 
             // label9
             // 
@@ -314,38 +257,98 @@
             this.label9.TabIndex = 13;
             this.label9.Text = "Adı:";
             // 
-            // label10
+            // label6
             // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(115, 330);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(56, 24);
-            this.label10.TabIndex = 19;
-            this.label10.Text = "Final:";
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(120, 292);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(51, 24);
+            this.label6.TabIndex = 6;
+            this.label6.Text = "Vize:";
             // 
-            // txtFinal
+            // btnSearch
             // 
-            this.txtFinal.Location = new System.Drawing.Point(171, 327);
-            this.txtFinal.Name = "txtFinal";
-            this.txtFinal.Size = new System.Drawing.Size(175, 32);
-            this.txtFinal.TabIndex = 20;
+            this.btnSearch.Location = new System.Drawing.Point(76, 593);
+            this.btnSearch.Name = "btnSearch";
+            this.btnSearch.Size = new System.Drawing.Size(183, 38);
+            this.btnSearch.TabIndex = 12;
+            this.btnSearch.Text = "Ara";
+            this.btnSearch.UseVisualStyleBackColor = true;
+            this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
             // 
-            // label11
+            // txtVize
             // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(75, 369);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(96, 24);
-            this.label11.TabIndex = 21;
-            this.label11.Text = "Ortalama:";
+            this.txtVize.Location = new System.Drawing.Point(171, 289);
+            this.txtVize.Name = "txtVize";
+            this.txtVize.Size = new System.Drawing.Size(175, 32);
+            this.txtVize.TabIndex = 7;
             // 
-            // txtOrt
+            // btnUpdate
             // 
-            this.txtOrt.Enabled = false;
-            this.txtOrt.Location = new System.Drawing.Point(171, 365);
-            this.txtOrt.Name = "txtOrt";
-            this.txtOrt.Size = new System.Drawing.Size(175, 32);
-            this.txtOrt.TabIndex = 22;
+            this.btnUpdate.Location = new System.Drawing.Point(76, 549);
+            this.btnUpdate.Name = "btnUpdate";
+            this.btnUpdate.Size = new System.Drawing.Size(183, 38);
+            this.btnUpdate.TabIndex = 11;
+            this.btnUpdate.Text = "Güncelle";
+            this.btnUpdate.UseVisualStyleBackColor = true;
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
+            // 
+            // btnDelete
+            // 
+            this.btnDelete.Location = new System.Drawing.Point(76, 505);
+            this.btnDelete.Name = "btnDelete";
+            this.btnDelete.Size = new System.Drawing.Size(183, 38);
+            this.btnDelete.TabIndex = 10;
+            this.btnDelete.Text = "Sil";
+            this.btnDelete.UseVisualStyleBackColor = true;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
+            // 
+            // btnCreate
+            // 
+            this.btnCreate.Location = new System.Drawing.Point(76, 461);
+            this.btnCreate.Name = "btnCreate";
+            this.btnCreate.Size = new System.Drawing.Size(183, 38);
+            this.btnCreate.TabIndex = 9;
+            this.btnCreate.Text = "Ekle";
+            this.btnCreate.UseVisualStyleBackColor = true;
+            this.btnCreate.Click += new System.EventHandler(this.btnCreate_Click);
+            // 
+            // btlList
+            // 
+            this.btlList.Location = new System.Drawing.Point(76, 417);
+            this.btlList.Name = "btlList";
+            this.btlList.Size = new System.Drawing.Size(183, 38);
+            this.btlList.TabIndex = 8;
+            this.btlList.Text = "Listele";
+            this.btlList.UseVisualStyleBackColor = true;
+            this.btlList.Click += new System.EventHandler(this.btlList_Click);
+            // 
+            // txtOgrId
+            // 
+            this.txtOgrId.Location = new System.Drawing.Point(171, 57);
+            this.txtOgrId.Name = "txtOgrId";
+            this.txtOgrId.Size = new System.Drawing.Size(175, 32);
+            this.txtOgrId.TabIndex = 1;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(74, 65);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(103, 24);
+            this.label3.TabIndex = 0;
+            this.label3.Text = "Öğrenci Id:";
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(375, 12);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowHeadersWidth = 51;
+            this.dataGridView1.RowTemplate.Height = 24;
+            this.dataGridView1.Size = new System.Drawing.Size(851, 773);
+            this.dataGridView1.TabIndex = 2;
             // 
             // FrmOgretmenDetay
             // 
@@ -384,7 +387,7 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox txtSifre;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox txtNumaraOgrenci;
+        private System.Windows.Forms.TextBox txtOgrId;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Button btnSearch;
