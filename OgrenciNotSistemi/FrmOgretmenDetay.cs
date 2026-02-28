@@ -48,6 +48,12 @@ namespace OgrenciNotSistemi
             da.Fill(dt);
             dataGridView1.DataSource = dt;
 
+            SqlCommand command1 = new SqlCommand("SELECT \r\n    o.OgrAd,\r\n    o.OgrSoyad,\r\n    d.DersAdi,\r\n    n.Vize,\r\n    n.Final,\r\n    n.Ortalama,\r\n\tn.Durum\r\nFROM TblNotlar n\r\nINNER JOIN TblOgrenci o ON n.OgrenciId = o.OgrId\r\nINNER JOIN TblDers d ON n.DersId = d.DersId;", bgl.baglanti());
+            SqlDataAdapter da1 = new SqlDataAdapter(command1);
+            DataTable dt1 = new DataTable();
+            da1.Fill(dt1);
+            dataGridView3.DataSource = dt1;
+
         }
 
         private void btnCreate_Click(object sender, EventArgs e)
@@ -105,5 +111,45 @@ namespace OgrenciNotSistemi
                 dataGridView1.DataSource = dt;
             }
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            txtOgrId.Text = "";
+            txtAd.Text = "";
+            txtSOyad.Text = "";
+            txtSınıf.Text = "";
+            txtSifre.Text = "";
+            txtNumara.Text = "";
+
+        }
+
+        private void btnAddNot_Click(object sender, EventArgs e)
+        {
+            double vize = Convert.ToDouble(txtVize.Text);
+            double final = Convert.ToDouble(txtFinal.Text);
+
+            double ortalama = (vize * 0.4) + (final * 0.6);
+
+            string durum = ortalama >= 50 ? "Geçti" : "Kaldı";
+
+            SqlCommand command = new SqlCommand(
+            "insert into TblNotlar (OgrenciId, DersId, vize, final, Ortalama,durum) values (@p1,@p2,@p3,@p4,@p5,@p6)",
+            bgl.baglanti());
+
+            command.Parameters.AddWithValue("@p1", txtOgrId.Text);
+            command.Parameters.AddWithValue("@p2", txtDersId.Text);
+            command.Parameters.AddWithValue("@p3", vize);
+            command.Parameters.AddWithValue("@p4", final);
+            command.Parameters.AddWithValue("@p5", ortalama);
+            command.Parameters.AddWithValue("@p6", durum);
+
+            command.ExecuteNonQuery();
+            bgl.baglanti().Close();
+
+            MessageBox.Show("Notlar Sisteme Kaydedildi", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            bgl.baglanti().Close();
+        }
+
+        
     }
 }

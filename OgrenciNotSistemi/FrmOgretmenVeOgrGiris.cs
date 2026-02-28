@@ -51,6 +51,7 @@ namespace OgrenciNotSistemi
             if (dr.Read())
             {
                 FrmOgrenciDetay frm = new FrmOgrenciDetay();
+                frm.numara=mskOgrenciNumara.Text;
                 frm.Show();
                 MessageBox.Show("Sisteme Hoş Gelidiniz", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 this.Hide();
