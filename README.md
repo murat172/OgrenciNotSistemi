@@ -35,5 +35,4 @@ Tablolar arasında foreign key ilişkileri bulunmaktadır.
 
 👤 Geliştirici
 
-Murat Aydın
 Murat Aydın GitHub: https://github.com/murat172
