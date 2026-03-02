@@ -1,26 +1,39 @@
---Proje Adı--
-Öğrenci Not Sistemi
+📊 Öğrenci Not Sistemi
 
---Proje Hakkında--
-Bu proje, öğrenci kayıtlarını ve not bilgilerini yönetmek için geliştirilmiş basit bir otomasyon sistemidir.
-Sistem üzerinden öğrenci ekleme, silme, güncelleme ve not sorgulama işlemleri yapılabilmektedir.
+C# ve MSSQL kullanılarak geliştirilmiş Windows Forms tabanlı öğrenci ve not yönetim uygulamasıdır. Proje, ADO.NET ile veritabanı bağlantısı ve ilişkisel veri yapısı pratiği amacıyla geliştirilmiştir.
 
---Kullanılan Teknolojiler--
+🚀 Proje Amacı
+
+C# ile masaüstü uygulama geliştirme
+ADO.NET ile veritabanı bağlantısı kurma
+MSSQL ile ilişkisel veritabanı tasarımı
+CRUD işlemlerinin uygulanması
+SQL JOIN kullanımının pekiştirilmesi
+
+🛠 Kullanılan Teknolojiler
+
 C#
-WinForm(.Net Framework)
-MSSQL
+Windows Forms
 ADO.NET
+MSSQL
 
---Özellikler--
-Öğrenci ekleme
-Öğrenci silme
-Öğrenci güncelleme
-Öğrenci adına göre arama
-Not hesaplama
+✨ Özellikler
 
---Veritabanı--
-Proje MSSQL veritabanı kullanmaktadır.
+Öğrenci ekleme, silme, güncelleme ve listeleme
+Ders bazlı not yönetimi
+Vize (%40) – Final (%60) ağırlıklı ortalama hesaplama
+İlişkisel tablo yapısı (Öğrenci – Ders – Not tabloları)
+SQL JOIN ile veri listeleme
 
+🗄 Veritabanı Yapısı
 
---Geliştirme Notları--
-Bu proje eğitim amaçlı geliştirilmiştir ve temel CRUD işlemlerini içermektedir.
+Proje aşağıdaki temel tablolar üzerine kuruludur:
+TblOgrenciler
+TblDersler
+TblNotlar
+Tablolar arasında foreign key ilişkileri bulunmaktadır.
+
+👤 Geliştirici
+
+Murat Aydın
+GitHub: https://github.com/murat172/OgrenciNotSistemi
