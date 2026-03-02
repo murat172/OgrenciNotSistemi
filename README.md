@@ -36,4 +36,4 @@ Tablolar arasında foreign key ilişkileri bulunmaktadır.
 👤 Geliştirici
 
 Murat Aydın
-GitHub: https://github.com/murat172/OgrenciNotSistemi
+Murat Aydın GitHub: https://github.com/murat172
