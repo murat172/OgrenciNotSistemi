@@ -33,6 +33,6 @@ TblDersler
 TblNotlar
 Tablolar arasında foreign key ilişkileri bulunmaktadır.
 
-👤 Geliştirici
+Geliştirici
 
 Murat Aydın GitHub: https://github.com/murat172
